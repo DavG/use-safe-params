@@ -1,13 +1,13 @@
 {
 	"name": "use-safe-params",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A tiny utility to safely validate and parse route params in React Router 7",
 	"type": "module",
 	"license": "MIT",
 	"author": "DavG <5451445+DavG@users.noreply.github.com>",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/DavG/use-safe-params.git"
+		"url": "git@github.com:DavG/use-safe-params.git"
 	},
 	"main": "./dist/react.js",
 	"module": "./dist/react.js",
