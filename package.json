@@ -24,7 +24,10 @@
 	},
 	"files": ["dist"],
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"format": "biome format --write .",
+		"lint": "biome check .",
+		"lint:fix": "biome check --write ."
 	},
 	"peerDependencies": {
 		"react-router": ">=6.20.0"
