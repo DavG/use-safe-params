@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Lockfiles
+bun.lock
+bun.lockb
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

@@ -1,0 +1,41 @@
+{
+	"name": "use-safe-params",
+	"version": "1.0.0",
+	"description": "A tiny utility to safely validate and parse route params in React Router 7",
+	"type": "module",
+	"license": "MIT",
+	"author": "DavG <5451445+DavG@users.noreply.github.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DavG/use-safe-params.git"
+	},
+	"main": "./dist/react.js",
+	"module": "./dist/react.js",
+	"types": "./dist/react.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/react.js",
+			"types": "./dist/react.d.ts"
+		},
+		"./core": {
+			"import": "./dist/core.js",
+			"types": "./dist/core.d.ts"
+		}
+	},
+	"files": ["dist"],
+	"scripts": {
+		"build": "tsc"
+	},
+	"peerDependencies": {
+		"react-router": ">=6.20.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"typescript": "^5.4.0",
+		"vitest": "^1.5.0"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"keywords": ["react", "react-router", "remix", "params", "validation", "hook", "typescript", "ssr"]
+}
