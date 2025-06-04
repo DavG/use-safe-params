@@ -54,7 +54,7 @@ You can do this with this hook:
 ```
 import { useSafeParams } from "use-safe-params"
 ...
-const { userId, cartUuid } = useSafeParams({ userId: "int+", "orderUuid": "uuid" })
+const { userId, cartUuid } = useSafeParams({ userId: "int+", cartUuid: "uuid" })
 ```
 
 ## Benefits: 
